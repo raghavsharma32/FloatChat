@@ -1,0 +1,5 @@
+{"file": "argo_float_123.nc", "rows": 1500, "timestamp": "2025-09-01T18:30:41.212053Z", "level": "info", "event": "NetCDF file loaded"}
+{"table": "argo_profiles", "rows": 1500, "timestamp": "2025-09-01T18:30:41.212347Z", "level": "info", "event": "Inserted profiles into PostgreSQL"}
+{"query": "Show me salinity profiles near equator", "sql": "SELECT ...", "timestamp": "2025-09-01T18:30:41.212406Z", "level": "info", "event": "User query processed"}
+{"float_id": "2903350", "variable": "salinity", "timestamp": "2025-09-01T18:30:41.212453Z", "level": "info", "event": "Generated profile plot"}
+{"endpoint": "/query", "error": "Timeout", "timestamp": "2025-09-01T18:30:41.212498Z", "level": "error", "event": "API request failed"}

@@ -1,0 +1,50 @@
+# core data & science
+pandas==2.2.3
+numpy==2.2.6
+xarray==2025.6.1
+netCDF4==1.7.2
+
+# DB & infra
+SQLAlchemy==2.0.43
+psycopg2-binary==2.9.10
+faiss-cpu==1.12.0
+chromadb==1.0.20
+
+# ML / embeddings / LLM infra
+torch                 # install latest CPU wheel; leave unpinned or pin if needed
+sentence-transformers==5.1.0
+transformers==4.56.0
+huggingface-hub==0.34.4
+
+# LangChain & connectors
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-google-genai==2.0.10
+langchain-groq==0.3.6
+google-generativeai==0.8.5
+openai==1.105.0
+mcp==1.13.1
+
+# storage / protobuf / utilities
+protobuf==5.29.5
+proto-plus==1.26.1
+googleapis-common-protos==1.70.0
+llama-index==0.13.4
+
+# app / viz / web
+streamlit==1.49.1
+plotly==6.3.0
+folium==0.20.0
+matplotlib==3.10.6
+fastapi==0.116.1
+uvicorn==0.35.0
+
+# aws / env / logging / testing
+boto3==1.40.23
+python-dotenv==1.1.1
+loguru==0.7.3
+structlog==22.2.0
+pytest==8.4.1
+unittest-xml-reporting==3.2.0
+
+# (do NOT include -e . here while resolving dependency issues)

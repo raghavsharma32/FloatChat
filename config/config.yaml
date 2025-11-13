@@ -1,0 +1,26 @@
+# FAISS vector store config
+faiss_db:
+  collection_name: "floatchat"
+
+# Embedding model config
+embedding_model:
+  provider: "huggingface"                # recommend HF to avoid embeddings quota entirely
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Retriever settings
+retriever:
+  top_k: 5
+
+# LLM configurations
+llm:
+  google:
+    provider: google
+    model_name: gemini-1.5-flash
+    temperature: 0.2
+    max_output_tokens: 2048
+
+  groq:
+    provider: groq
+    model_name: llama-3.3-70b-versatile
+    temperature: 0.2
+    max_output_tokens: 2048
